@@ -31,34 +31,11 @@ class testViewController: UIViewController {
         
         let article1 = Article(image: #imageLiteral(resourceName: "ttt"),  category: "Testing")
 
-        
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
-        tempArticles.append(article1)
+        for _ in 1...10 {
+             tempArticles.append(article1)
+        }
         
     
-        
         return tempArticles
     }
 
